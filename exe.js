@@ -1,22 +1,22 @@
-const readLineSync = require('readLine-sync');
+const readLineSync = require('readLine-sync'); // requer que vc tenha ativado o readline
 
 //1. A imobiliária Imóbilis vende apenas terrenos retangulares. Faça um algoritmo para ler as dimensões de um terreno e depois exibir a área do terreno. 
 
 
 
-const P1 = readLineSync.questionFloat( "Digite o primeiro perimetro: " );
+const P1 = readLineSync.questionFloat( "Digite o primeiro perimetro: " ); // // vc pode usar variaveis tendo 3 ( var ).( let ).( const )
 
-const P2 = readLineSync.questionFloat( "Digite o segundo perimetro: " );
+const P2 = readLineSync.questionFloat( "Digite o segundo perimetro: " ); // Console.log manda uma mensagem para o cliente
 
-const P3 = readLineSync.questionFloat( "Digite o terceiro perimetro: " );
+const P3 = readLineSync.questionFloat( "Digite o terceiro perimetro: " ); // o readLineSync.questionFloat faz uma "Questão" e o float significa que ira ser " perguntado numeros para o cliente " 
 
-const P4 = readLineSync.questionFloat( "Digite o quarto perimetro: " );
+const P4 = readLineSync.questionFloat( "Digite o quarto perimetro: " ); //  depois do readLineSync é aconpanhado parenteses e depois aspas duplas para digitar o texto que o cliente ira receber
 
-const area = ( P1 + P2 + P3 +P4 )
+const area = ( P1 + P2 + P3 +P4 ); //  aqui a variavel -Area- significa a soma do p1 p2 p3 e p4 dentro de parenteses ( nao obrigatorio, mas eu gosto )
 
-console.log ( ` Resutado: ${area}m² ` )
+console.log ( ` Resutado: ${area}m² ` ); // como eu ja havia dito, o console.log manda uma mensagem para o cliente. com parentese e aspas, mas , aspas duplas apenas se for somente texto, se for exibir o resutado ou uma variavel vc deve usar um crase ( `` )
 
-
+// o texto fica dentro do crase e a variavel dentro de - ${variavel} -  
 
 //2. Faça um algoritmo para calcular quantas ferraduras são necessárias para equipar todos os cavalos comprados para um haras. 
 
